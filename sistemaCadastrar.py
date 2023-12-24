@@ -32,9 +32,9 @@ while not entrada:
         
         servidor = smtplib.SMTP('smtp.gmail.com', 587)
         servidor.starttls()
-        servidor.login('estoquemedicohub@gmail.com', 'pifs imrb vvyo kdah')
+        servidor.login('@gmail.com', 'pifs imrb vvyo kdah')
 
-        remetente = 'estoquemedicohub@gmail.com'
+        remetente = '@gmail.com'
         destinatarios = email_digitado
         mensagem = token_cadastro
 
